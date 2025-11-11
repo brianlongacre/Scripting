@@ -205,3 +205,60 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/                 # Local VS Code settings
+*.code-workspace         # VS Code workspace files
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/             # Python bytecode cache
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+build/
+dist/
+.venv/                   # Virtual environments
+env/
+venv/
+
+# ==========================================
+# PowerShell
+# ==========================================
+# Keep .ps1, .psm1, etc. tracked by default
+# Ignore local debug/output files
+*.ps1xml                 # Exported format files (if auto-generated)
+*.clixml                 # Exported objects
+*.log
+*.bak
+*.tmp
+
+# ==========================================
+# OS / System Files
+# ==========================================
+Thumbs.db
+Desktop.ini
+.DS_Store                # Mac OS junk (in case repo is shared cross-platform)
+
+# ==========================================
+# Archives / Data Dumps
+# ==========================================
+*.zip
+*.7z
+*.tar
+*.gz
+*.rar
+*.iso
+
+# ==========================================
+# CSV/Exports (if you don’t want to track data dumps)
+# ==========================================
+*.csv
+*.xlsx
+*.xls
